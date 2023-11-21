@@ -1,7 +1,7 @@
-const ProtoDef = require('protodef').ProtoDef
+const ProtoDef = require('@mcbedrock/protodef').ProtoDef
 const { performance } = require('perf_hooks')
 const assert = require('assert')
-const { ProtoDefCompiler } = require('protodef').Compiler
+const { ProtoDefCompiler } = require('@mcbedrock/protodef').Compiler
 const fs = require('fs')
 
 const mainType = 'nbt'

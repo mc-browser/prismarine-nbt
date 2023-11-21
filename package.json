@@ -32,7 +32,7 @@
     "fix": "standard --fix"
   },
   "dependencies": {
-    "protodef": "^1.9.0"
+    "@mcbedrock/protodef": "^1.15.0"
   },
   "license": "MIT"
 }

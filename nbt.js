@@ -1,6 +1,6 @@
 const zlib = require('zlib')
 
-const { ProtoDefCompiler } = require('protodef').Compiler
+const { ProtoDefCompiler } = require('@mcbedrock/protodef').Compiler
 
 const beNbtJson = JSON.stringify(require('./nbt.json'))
 const leNbtJson = beNbtJson.replace(/([iuf][0-7]+)/g, 'l$1')
